@@ -20,7 +20,7 @@ public:
         }
         
         // Get minimum from right to left, conditional of being above minLeft[i-1]
-        // Store the minimum (usefull) element at the top of the stack
+        // Store the minimum (useful) element at the top of the stack
         stack<int> minRight; 
         for (int i = n-1; i >= 1; --i) {
             if (nums[i] >= minLeft[i-1]) {
